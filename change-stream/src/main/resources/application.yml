@@ -1,0 +1,4 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://root:root@localhost:28017,localhost:28018,localhost:28019/test?authSource=admin&replicaSet=rs0
