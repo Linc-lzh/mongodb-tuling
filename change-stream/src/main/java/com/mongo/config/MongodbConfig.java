@@ -17,6 +17,7 @@ import java.util.concurrent.Executors;
 
 @Configuration
 public class MongodbConfig {
+
     @Bean
     MessageListenerContainer messageListenerContainer(MongoTemplate template, DocumentMessageListener documentMessageListener) {
 
@@ -42,3 +43,4 @@ public class MongodbConfig {
         return messageListenerContainer;
     }
 }
+
